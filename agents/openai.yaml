@@ -1,0 +1,6 @@
+interface:
+  display_name: "Simulink 可读建模"
+  short_description: "区域展开、端口对齐、清晰走线与中文标注，完成运行和画面双重验收"
+  default_prompt: "使用 $simulink-readable-models，按区域展开整理这个 Simulink 模型，检查接口、直连走线和文字位置，并实际运行后查看画面。"
+policy:
+  allow_implicit_invocation: true
